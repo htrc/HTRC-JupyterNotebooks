@@ -1,4 +1,4 @@
-name: notebook_env
+name: nb_env
 channels:
   - plotly
   - defaults
@@ -12,17 +12,70 @@ dependencies:
   - libstdcxx-ng=9.1.0=hdf63c60_0
   - ncurses=6.2=he6710b0_1
   - openssl=1.0.2u=h7b6447c_0
-  - pip=21.1.1=py36h06a4308_0
+  - plotly=4.14.3=py_0
   - python=3.6.4=hc3d631a_3
   - readline=7.0=h7b6447c_5
-  - retrying=1.3.3=py_2
-  - setuptools=52.0.0=py36h06a4308_0
-  - six=1.15.0=pyhd3eb1b0_0
+  - retrying=1.3.3=py36_2
+  - six=1.15.0=py36h06a4308_0
   - sqlite=3.33.0=h62c20be_0
   - tk=8.6.10=hbc83047_0
   - wheel=0.36.2=pyhd3eb1b0_0
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
-  - plotly=4.14.3=py_0
-prefix: /opt/anaconda/envs/notebook_env
-
+  - pip:
+    - blis==0.7.4
+    - catalogue==2.0.4
+    - chardet==4.0.0
+    - click==7.1.2
+    - contextvars==2.4
+    - cymem==2.0.5
+    - cython==0.29.23
+    - dartsclone==0.9.0
+    - dataclasses==0.8
+    - dawg-python==0.7.2
+    - de-core-news-sm==3.0.0
+    - docopt==0.6.2
+    - en-core-web-sm==3.0.0
+    - es-core-news-sm==3.0.0
+    - fr-core-news-sm==3.0.0
+    - idna==2.10
+    - immutables==0.15
+    - it-core-news-sm==3.0.0
+    - ja-core-news-sm==3.0.0
+    - jinja2==3.0.1
+    - joblib==1.0.1
+    - markupsafe==2.0.1
+    - murmurhash==1.0.5
+    - numpy==1.19.5
+    - packaging==20.9
+    - pathy==0.5.2
+    - pip==21.1.2
+    - preshed==3.0.5
+    - pt-core-news-sm==3.0.0
+    - pydantic==1.7.4
+    - pymorphy2==0.9.1
+    - pymorphy2-dicts-ru==2.4.417127.4579844
+    - pyparsing==2.4.7
+    - requests==2.25.1
+    - ru-core-news-sm==3.0.0
+    - scikit-learn==0.24.2
+    - scipy==1.5.4
+    - setuptools==57.0.0
+    - smart-open==3.0.0
+    - sortedcontainers==2.1.0
+    - spacy==3.0.6
+    - spacy-legacy==3.0.5
+    - spacy-pkuseg==0.0.28
+    - srsly==2.4.1
+    - sudachidict-core==20201223.post1
+    - sudachipy==0.5.2
+    - thinc==8.0.3
+    - threadpoolctl==2.1.0
+    - tqdm==4.61.0
+    - typer==0.3.2
+    - typing-extensions==3.10.0.0
+    - urllib3==1.26.4
+    - wasabi==0.8.2
+    - zh-core-web-sm==3.0.0
+    - zipp==3.4.1
+prefix: /opt/anaconda/envs/nb_env

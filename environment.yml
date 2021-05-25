@@ -33,15 +33,9 @@ dependencies:
     - dartsclone==0.9.0
     - dataclasses==0.8
     - dawg-python==0.7.2
-    - de-core-news-sm==3.0.0
     - docopt==0.6.2
-    - en-core-web-sm==3.0.0
-    - es-core-news-sm==3.0.0
-    - fr-core-news-sm==3.0.0
     - idna==2.10
     - immutables==0.15
-    - it-core-news-sm==3.0.0
-    - ja-core-news-sm==3.0.0
     - jinja2==3.0.1
     - joblib==1.0.1
     - markupsafe==2.0.1
@@ -51,13 +45,11 @@ dependencies:
     - pathy==0.5.2
     - pip==21.1.2
     - preshed==3.0.5
-    - pt-core-news-sm==3.0.0
     - pydantic==1.7.4
     - pymorphy2==0.9.1
     - pymorphy2-dicts-ru==2.4.417127.4579844
     - pyparsing==2.4.7
     - requests==2.25.1
-    - ru-core-news-sm==3.0.0
     - scikit-learn==0.24.2
     - scipy==1.5.4
     - setuptools==57.0.0
@@ -76,6 +68,5 @@ dependencies:
     - typing-extensions==3.10.0.0
     - urllib3==1.26.4
     - wasabi==0.8.2
-    - zh-core-web-sm==3.0.0
     - zipp==3.4.1
 prefix: /opt/anaconda/envs/nb_env
